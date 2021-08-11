@@ -1,0 +1,22 @@
+{
+  "name": "cloting-store-v2",
+  "version": "2.0.0",
+  "description": "Clothing store app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debbieellis7/clothing-store-v2.git"
+  },
+  "author": "Debbie Ellis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debbieellis7/clothing-store-v2/issues"
+  },
+  "homepage": "https://github.com/debbieellis7/clothing-store-v2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
