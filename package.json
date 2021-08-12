@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Clothing store app",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
