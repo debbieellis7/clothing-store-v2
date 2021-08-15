@@ -2,8 +2,8 @@ import asyncHandler from 'express-async-handler'
 import Product from '../models/productModel.js'
 
 /**
- * @desc: Fetch all products
- * @route: GET /api/products
+ * @desc:   Fetch all products
+ * @route:  GET /api/products
  * @access: Public
  */
 const getProducts = asyncHandler(async (req, res) => {
@@ -13,8 +13,8 @@ const getProducts = asyncHandler(async (req, res) => {
 })
 
 /**
- * @desc: Fetch single product
- * @route: GET /api/products/:id
+ * @desc:   Fetch single product
+ * @route:  GET /api/products/:id
  * @access: Public
  */
 const getProductsById = asyncHandler(async (req, res) => {
